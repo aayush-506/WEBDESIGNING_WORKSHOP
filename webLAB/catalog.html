@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>Catalogue - Online Bookstore</title> 
+    <style> 
+        /* Define your CSS styles here */ 
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+        } 
+        #header { 
+            background-color: #333; 
+            color: #fff; 
+            text-align: center; 
+            padding: 10px;
+        }
+        #menu { 
+            background-color: #555; 
+            color: #fff; 
+            float: left; 
+            width: 20%; 
+            padding: 20px; 
+        } 
+        #content { 
+            float: left; 
+            width: 80%; 
+            padding: 20px; 
+        } 
+        #footer { 
+            clear: both; 
+            background-color: #333; 
+            color: #fff; 
+            text-align: center; 
+            padding: 10px; 
+        } 
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+        } 
+        table, th, td { 
+            border: 1px solid #ccc; 
+        }
+        th, td { 
+            padding: 10px; 
+            text-align: left; 
+        } 
+        th { 
+            background-color: #333; 
+            color: #fff; 
+        } 
+        .book-cover { 
+            max-width: 100px; 
+            max-height: 150px; 
+        } 
+        .add-to-cart-btn { 
+            background-color: #333; 
+            color: #fff; 
+            padding: 5px 10px; 
+            border: none; 
+            border-radius: 3px; 
+            cursor: pointer; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <div id="header"> 
+        <h1>Online Bookstore</h1> 
+        <p>Logo</p>
+    </div> 
+    <div id="menu"> 
+        <h2>Web Site Name</h2> 
+        <ul> 
+            <li><a href="#">Home</a></li> 
+            <li><a href="#">Login</a></li> 
+            <li><a href="#">Registration</a></li> 
+            <li><a href="#">Catalogue</a></li> 
+            <li><a href="#">Cart</a></li> 
+        </ul> 
+        <h2>Categories</h2> 
+        <ul> 
+            <li><a href="#">CSE</a></li> 
+            <li><a href="#">ECE</a></li> 
+            <li><a href="#">EEE</a></li> 
+            <li><a href="#">CIVIL</a></li> 
+        </ul> 
+    </div> 
+    <div id="content"> 
+        <h2>Catalogue</h2> 
+        <table> 
+            <thead> 
+                <tr> 
+                    <th>Book Cover</th> 
+                    <th>Author Name</th> 
+                    <th>Publisher</th>
+                    <th>Price</th> 
+                    <th>Action</th> 
+                </tr> 
+            </thead> 
+            <tbody> 
+                <!-- Example book entry --> 
+                <tr> 
+                    <td><img src="book1.jpg" alt="Book Cover" class="book-cover"></td> 
+                    <td>Author Name 1</td> 
+                    <td>Publisher 1</td> 
+                    <td>$19.99</td> 
+                    <td><button class="add-to-cart-btn">Add to Cart</button></td> 
+                </tr> 
+                <!-- Add more book entries here --> 
+            </tbody> 
+        </table> 
+    </div> 
+    <div id="footer"> 
+        &copy; 2023 Online Bookstore 
+    </div> 
+</body> 
+</html>
